@@ -1,18 +1,11 @@
 import { Slot } from 'expo-router'
 import React from 'react'
-import { Text, View } from 'react-native'
+import { View } from 'react-native'
 
-const RootLayout = () => {
+export default function RootLayout() {
   return (
-    <View>
-      <Text> header </Text>
-
-
+    <View style={{ flex: 1 }}>
       <Slot />
-
-       <Text> fOOTER </Text>
     </View>
   )
 }
-
-export default RootLayout
