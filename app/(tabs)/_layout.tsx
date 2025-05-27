@@ -40,14 +40,15 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="mesas"
+        name="cocina"
         options={{
-          title: 'Mesas',
+          title: 'Cocina',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="chatbubble-ellipses-outline" color={color} size={size} />
+            <MaterialIcons name="restaurant-menu" color={color} size={size} />
           ),
         }}
       />
+      
     </Tabs>
   )
 }
